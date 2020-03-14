@@ -1,0 +1,57 @@
+# humanstxt.org/
+
+/* TEAM */
+	Your title: Your name
+	Contact: hello [at] humanstxt.org
+	Site: email, link to a contact form, etc.
+	Twitter: @handle
+	Facebook: https://www.facebook.com/username
+	Skype: skypeid
+	From: Barcelona, Catalonia, Spain
+
+
+/* THANKS */
+	Development: Firstname Lastname
+	From: Eitental, Austria, Europe
+	Company: Site.com
+	URL: http://www.site.com
+	Contact: info [at] site.com
+
+	Programming: Firstname Lastname
+	From: Eitental, Austria, Europe
+	Company: Site.com
+	URL: http://www.site.com
+	Contact: info [at] site.com
+
+	Design: Firstname Lastname
+	From: Eitental, Austria, Europe
+	Company: Site.com
+	URL: http://www.site.com
+	Contact: info [at] site.com
+	
+	Media Queries by: Marta Armada (@martuishere) and Javier Usobiaga (@htmlboy)
+
+
+/* COMPANY */
+	Company: Australia Education Agency e.U. - AEA - Australia Education Agency, Emmersdorf an der Donau, Austria, Europe
+	Commercial register: 330793k, Landesgericht St. Pölten
+	UID: ATU66075123
+	Business executive: MSCMA Christine Raisinger-Bruckner
+	Line of business: Australia Education Agency professionally organizes exchange students at schools in Australia and New Zealand as well as au pair sites, students admitted to universities, language schools and vocational training in Australia. Service is free of charge.
+
+
+/* SITE */
+	Last update: YYYY/MM/DD
+	AT URL: http://www.site.com
+	EN URL: http://www.site.com
+	FR URL: http://www.site.fr
+	DE URL: http://de.site.com
+	Language: English en-US / French fr-FR / Deutsch /
+	Doctype:HTML5
+	Standards: HTML5, CSS3, JS, ...	
+	Components: Modernizr, jQuery, etc.
+	IDE: Sublime Text, Atom, Visual Studio Code, FileZilla, Photoshop
+	Software: Adobe Photoshop, PSPad, TopStyle Pro, Sublime Text
+	Hosted on: HostEurope
+
+						

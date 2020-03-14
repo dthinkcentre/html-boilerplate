@@ -1,0 +1,198 @@
+/* =============
+    General
+============= */
+
+:root{
+    /* color pallete: https://coolors.co/008080-022b3a-bfdbf7-e1e5f2-ffffff */
+    
+    --primary-ligter-3:     #45a2a2;       /* 1: Keppel */
+    --primary-ligter-2:     #2e9797;       /* 1: zomp */
+    --primary-ligter-1:     #178b8b;       /* 1: teal */
+    --primary:              #008080;       /* 1: teal */
+    --primary-darker-1:     #007575;       /* 1: Skobeloff */
+    --primary-darker-2:     #006969;       /* 1: Skobeloff */
+    --primary-darker-3:     #005e5e;       /* 1: Tropical Rain Forest */
+
+    --secondary-ligter-3:    #47646f;       /* 2: Dark Space sparkle */
+    --secondary-ligter-2:    #30515d;       /* 2: Dark Slate Gray */
+    --secondary-ligter-1:    #193e4b;       /* 2: teal */
+    --secondary:             #022b3a;       /* 2: teal */
+    --secondary-darker-1:    #022835;       /* 2: Maastricht Blue */
+    --secondary-darker-2:    #022430;       /* 2: Maastricht Blue */
+    --secondary-darker-3:    #02202b;       /* 2: Maastricht Blue */
+
+    --tertiary-ligter-3:     #d0e4f9;       /* 3: Azureish White */
+    --tertiary-ligter-2:     #cae1f8;       /* 3: teal */
+    --tertiary-ligter-1:     #c4def7;       /* 3: teal */
+    --tertiary:              #bfdbf7;       /* 3: teal */
+    --tertiary-darker-1:     #aec8e1;       /* 3: Light Steel Blue */
+    --tertiary-darker-2:     #9db4cb;       /* 3: Wild Blue Yonder*/
+    --tertiary-darker-3:     #8ba0b4;       /* 3: Pewter Blue */
+
+    --quaternary-ligter-3:   #e9ecf5;       /* 4: glitter */
+    --quaternary-ligter-2:   #e6e9f4;       /* 4: glitter */
+    --quaternary-ligter-1:   #e3e7f3;       /* 4: teal */
+    --quaternary:            #e1e5f2;       /* 4: teal */
+    --quaternary-darker-1:   #cdd1dc;       /* 4: Light Gray */
+    --quaternary-darker-2:   #b9bcc7;       /* 4: Gray (X11 Gray) */
+    --quaternary-darker-3:   #a4a7b1;       /* 4: Quick Silver */
+
+    --quinary-ligter-3:      #ffffff;       /* 5: white */
+    --quinary-ligter-2:      #ffffff;       /* 5: white */
+    --quinary-ligter-1:      #ffffff;       /* 5: white */
+    --quinary:               #ffffff;       /* 5: white */
+    --quinary-darker-1:      #e8e8e8;       /* 5: Platinum */
+    --quinary-darker-2:      #d1d1d1;       /* 5: Light Gray */
+    --quinary-darker-3:      #bababa;       /* 5: Gray (X11 Gray) */
+
+
+    /* ------------------------------------------------- */
+    --senary-ligter-1:       #008080;       /* 6: teal */
+    --senary:       #008080;       /* 6: teal */
+    --senary-darker-1:       #008080;       /* 6: teal */
+
+    --septenary-ligter-1:    #008080;       /* 7: teal */
+    --septenary:    #008080;       /* 7: teal */
+    --septenary-darker-1:    #008080;       /* 7: teal */
+
+    --octonary-ligter-1:     #008080;       /* 8: teal */
+    --octonary:     #008080;       /* 8: teal */
+    --octonary-darker-1:     #008080;       /* 8: teal */
+
+    --nonary-ligter-1:       #008080;       /* 9: teal */
+    --nonary:       #008080;       /* 9: teal */
+    --nonary-darker-1:       #008080;       /* 9: teal */
+
+    --denary-ligter-1:       #008080;       /* 10: teal */
+    --denary:       #008080;       /* 10: teal */
+    --denary-darker-1:       #008080;       /* 10: teal */
+
+    /* There's no word relating to the number eleven but there is one that relates to the number twelve. */
+    --duodenary-ligter-1:    #008080;       /* 12: teal */
+    --duodenary:    #008080;       /* 12: teal */
+    --duodenary-darker-1:    #008080;       /* 12: teal */
+
+
+    --blue:         #3d8ef8;
+    --indigo:       #564ab1;
+    --purple:       #6f42c1;
+    --pink:         #e83e8c;
+    --red:          #fb4d53;
+    --orange:       #f1734f;
+    --yellow:       #f1b44c;
+    --green:        #11c46e;
+    --teal:         #008080;
+    --cyan:         #0db4d6;
+    --white:        #fff;
+    --gray:         #7c8a96;
+    --gray-dark:    #343a40;    
+    --success:      #11c46e;
+    --info:         #0db4d6;
+    --warning:      #f1b44c;
+    --danger:       #fb4d53;
+    --light:        #eff2f7;
+    --dark:         #343a40;
+
+    --font-family:                  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-family-sans-serif:       -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font-family-serif:            -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", serif;
+    --font-family-monospace:        SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    
+
+}
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    
+    font-family: var(--font-family);
+    font-weight: normal;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    position: relative;
+    /* min-height: 100%;  */
+    min-height: 100vh;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+
+@media only screen and (min-width: var(--breakpoint-xs)) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: var(--breakpoint-xl)) {
+    html {
+        font-size: 14.5px;
+    }
+}
+
+@media only screen and (min-width: var(--breakpoint-xl)) {
+    html {
+        font-size: 15px;
+    }
+}
+
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Rubik", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #505d69;
+    text-align: left;
+    background-color: #f4f8f9;
+}
+
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section.no-pad {
+    padding: 0;
+}
+
+section.no-pad-bot {
+    padding-bottom: 0;
+}
+
+section.no-pad-top {
+    padding-top: 0;
+}
+
+
+a { 
+    text-decoration: none !important; 
+    color: var(--primary);
+}
+
+a:hover { 
+    text-decoration: underline; 
+    color: var(--primary-darker-1);
+}
+
+
+label { font-weight: 500; }
+
+
+button, a { outline: none !important; }
+
